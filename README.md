@@ -10,12 +10,12 @@ Welcome to the **Blog Post Project**, a full-stack web application for creating,
   - Register new users.
   - Login and logout functionality.
 - **Post Management**
-  - Create, edit, and delete blog posts.
   - View a list of all posts.
   - View full post details.
 - **Responsive UI**
   - Clean, user-friendly design.
   - Mobile-friendly layout.
+  - Proper use of Template inheritance
 
 ---
 
@@ -24,17 +24,17 @@ Welcome to the **Blog Post Project**, a full-stack web application for creating,
 > _Replace these image links with your actual screenshots stored in the `images` folder or hosted publicly._
 
 - **🏠 Home Page**
-  ![Home Page](images/home_page.png)
+  ![Home page](https://github.com/user-attachments/assets/91fee4aa-f858-43af-9861-b6f8469c24b3)
 
 - **🔐 Login Page**
-  ![Login Page](images/login_page.png)
+  ![Login page](https://github.com/user-attachments/assets/e2b49573-7c9f-4024-996f-cdefef4eda39)
 
-- **🔓 Logout**
-  ![Logout Page](images/logout_page.png)
+
+- **Signup Page**
+  ![image](https://github.com/user-attachments/assets/7a6539a9-52e6-4703-8662-54c43559ce34)
 
 - **📄 Full Post View**
-  ![Full Post](images/full_post.png)
-
+  ![image](https://github.com/user-attachments/assets/9dd421ef-ae5a-44cf-91c8-813ad73fa658)
 ---
 
 ## ⚙️ Technologies Used
