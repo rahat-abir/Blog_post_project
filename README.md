@@ -41,10 +41,9 @@ Welcome to the **Blog Post Project**, a full-stack web application for creating,
 
 - **Backend:** Django (Python)
 - **Frontend:** Django Templates, Bootstrap
-- **Database:** SQLite (default, easy to configure for PostgreSQL/MySQL)
+- **Database:** ORM
 - **Authentication:** Django’s built-in authentication system
-- **Deployment:** Locally or easily configurable for platforms like Heroku, Vercel, or Render.
-
+- 
 ---
 
 ## 📂 Installation & Setup
