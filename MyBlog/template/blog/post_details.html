@@ -1,0 +1,10 @@
+{% extends "blog/base.html" %}
+{% block title %} {{post.title}} {% endblock %}
+
+{% block content %}
+    <h2 class="mb-3"> {{post.title}} </h2>
+    <div class="text-muted fst-italic mb-3" style="font-size: 0.85rem;">
+        By <b>{{ post.author }}</b> on {{ post.created_at }}.
+    </div>
+    <p> {{ post.content}} </p>
+{% endblock %}
