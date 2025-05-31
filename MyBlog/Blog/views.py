@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import redirect, render, get_object_or_404
 from .models import Post, Category, Tag
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
@@ -19,8 +19,11 @@ def post_details(request, id):
 
 def signup_view(request):
     if(request.method == 'POST'):
-        pass
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('post_list')
     else:
         form = UserCreationForm()
-    
-    return render(render, 'registration/signup.html', {'form': form})
+    return render(request, 'registration/signup.html', {'form': form})
