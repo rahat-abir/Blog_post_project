@@ -21,7 +21,8 @@ Welcome to the **Blog Post Project**, a full-stack web application for creating,
 
 ## 🖼️ Screenshots
 
-> _Replace these image links with your actual screenshots stored in the `images` folder or hosted publicly._
+- **🛢️ Schema Diagram**
+  ![sceema](https://github.com/user-attachments/assets/bbfeca6c-5a54-49c6-acd7-94212a7be1f5)
 
 - **🏠 Home Page**
   ![Home page](https://github.com/user-attachments/assets/91fee4aa-f858-43af-9861-b6f8469c24b3)
